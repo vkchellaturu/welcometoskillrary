@@ -7,5 +7,4 @@ git credentialsId: 'GIT_HUB_REPO', url: 'https://github.com/vkchellaturu/welcome
 stage('Compile-package'){
  sh "mvn package"
 }
-
 }
